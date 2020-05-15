@@ -6,7 +6,6 @@ use Illuminate\Support\Facades\Http;
 
 class TmbClient
 {
-
     private $stopId;
 
     private $testMode = false;
@@ -29,7 +28,7 @@ class TmbClient
 
         $queryString = [
             'app_id' => config("dashboard.tiles.tmb.app_id"),
-            'app_key' => config("dashboard.tiles.tmb.app_key")
+            'app_key' => config("dashboard.tiles.tmb.app_key"),
         ];
 
         if ($this->testMode) {

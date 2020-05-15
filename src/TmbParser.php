@@ -4,7 +4,6 @@ namespace Dustycode\TmbTile;
 
 class TmbParser
 {
-
     private $stopData;
 
     private $busData = [];
@@ -58,18 +57,23 @@ class TmbParser
         switch ($line) {
             case strpos($line, 'H'):
                 $color = '#009ee0';
+
                 break;
             case strpos($line, 'V'):
                 $color = '#6ab023';
+
                 break;
             case strpos($line, 'D'):
                 $color = '#93117e';
+
                 break;
             case strpos($line, 'N'):
                 $color = '#3366cc';
+
                 break;
             default:
                 $color = '#DC241F';
+
                 break;
         }
 
