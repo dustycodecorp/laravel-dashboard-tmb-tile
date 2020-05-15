@@ -1,8 +1,8 @@
 # TMB Bus tile for [Laravel Dashboard](https://docs.spatie.be/laravel-dashboard).
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dustycodecorp/laravel-tmb-tile.svg?style=flat-square)](https://packagist.org/packages/dustycodecorp/laravel-tmb-tile)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/dustycodecorp/laravel-tmb-tile/run-tests?label=tests)](https://github.com/dustycodecorp/laravel-tmb-tile/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/dustycodecorp/laravel-tmb-tile.svg?style=flat-square)](https://packagist.org/packages/dustycodecorp/laravel-tmb-tile)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/dustycodecorp/laravel-dashboard-tmb-tile.svg?style=flat-square)](https://packagist.org/packages/dustycodecorp/laravel-dashboard-tmb-tile)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/dustycodecorp/laravel-dashboard-tmb-tile/run-tests?label=tests)](https://github.com/dustycodecorp/laravel-dashboard-tmb-tile/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/dustycodecorp/laravel-dashboard-tmb-tile.svg?style=flat-square)](https://packagist.org/packages/dustycodecorp/laravel-dashboard-tmb-tile)
 
 This tile can display the bus status for a given bus stop of Barcelona
 
