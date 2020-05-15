@@ -1,0 +1,46 @@
+{
+    "name": "dustycodecorp/laravel-dashboard-tmb-tile",
+    "description": "A TMB Bus tile for Spatie's Laravel dashboard",
+    "keywords": [
+        "laravel-dashboard-tmb-tile",
+        "TMB tile",
+        "TMB bus tile"
+    ],
+    "homepage": "https://github.com/dustycodecorp/laravel-dashboard-tmb-tile",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "spatie/laravel-dashboard": "^1.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dustycode\\TmbTile\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dustycode\\TmbTile\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dustycode\\TmbTile\\TmbTileServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

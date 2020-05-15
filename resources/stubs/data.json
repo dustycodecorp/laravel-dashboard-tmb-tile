@@ -1,0 +1,31 @@
+{
+    "data": {
+        "ibus": [
+            {
+                "destination": "Pl. Urquinaona",
+                "line": "55",
+                "routeId": "0551",
+                "t-in-min": 2,
+                "t-in-s": 321,
+                "text-ca": "2 min"
+            },
+            {
+                "destination": "Barceloneta",
+                "line": "V15",
+                "routeId": "2151",
+                "t-in-min": 5,
+                "t-in-s": 462,
+                "text-ca": "5 min"
+            },
+            {
+                "destination": "Fòrum Campus Besòs",
+                "line": "H16",
+                "routeId": "2160",
+                "t-in-min": 7,
+                "t-in-s": 509,
+                "text-ca": "7 min"
+            }
+        ]
+    },
+    "status": "success"
+}
